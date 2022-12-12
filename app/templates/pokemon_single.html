@@ -1,0 +1,10 @@
+{% extends './layout.html' %}
+
+{% block title %}{{post.name}}{% endblock title %}
+
+{% block content %}
+<h1>{{post.name}}</h1>
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" class="rounded float-start">
+<p>{{post.description}}</p>
+<p>{{post.type}}</p>
+{% endblock content %}
